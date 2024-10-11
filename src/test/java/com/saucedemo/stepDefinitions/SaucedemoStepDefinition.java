@@ -21,7 +21,7 @@ public class SaucedemoStepDefinition {
                 Open.url("https://www.saucedemo.com/")
         );
         theActorInTheSpotlight().attemptsTo(
-                InicioSesionTask.on()
+                InicioSesionTask.fromHome()
         );
     }
 
